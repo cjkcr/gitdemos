@@ -26,25 +26,30 @@
 #     print(a)
 #
 # sums(2,4,5,2)
+#
+# class Student:
+#     def __init__(self,name,age,home,school):
+#
+#         self.name=name
+#         self.age=age
+#         self.home=home
+#         self.school=school
+#
+#
+#
+#     def aaaa(self):
+#         print('he name is',self.name)
+#     # def bbbb(self):
+#         print('he old is',self.age)
+#     # def cccc(self):
+#         print('he come from',self.home)
+#     # def dddd(self):
+#         print('stud:name',self.name ,'old',self.age,'come from '
+#                                                     'city',self.home,'at',self.school)
+# abc=Student('xijing','18','tongliao','tie lu middleschool')
+# abc.aaaa()
 
-class Student:
-    def __init__(self,name,age,home,school):
-
-        self.name=name
-        self.age=age
-        self.home=home
-        self.school=school
-
-
-
-    def aaaa(self):
-        print('he name is',self.name)
-    # def bbbb(self):
-        print('he old is',self.age)
-    # def cccc(self):
-        print('he come from',self.home)
-    # def dddd(self):
-        print('stud:name',self.name ,'old',self.age,'come from '
-                                                    'city',self.home,'at',self.school)
-abc=Student('xijing','18','tongliao','tie lu middleschool')
-abc.aaaa()
+a,b=0,1
+while b<10:
+    print(b)
+    a,b=b,a+b
