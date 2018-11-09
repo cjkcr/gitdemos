@@ -49,7 +49,55 @@
 # abc=Student('xijing','18','tongliao','tie lu middleschool')
 # abc.aaaa()
 
-a,b=0,1
-while b<10:
-    print(b)
-    a,b=b,a+b
+# a,b=0,1
+# while b<10:
+#     print(b)
+#     a,b=b,a+b
+#
+# a=['cat','window','defionff','abcdefgh']
+# # for i in a:
+# #     print(i,len(i))
+#
+# for i in a[:]:
+#     if len(i)>6:
+#         a.insert(1,i)
+# print(a)
+
+# for a in range(1,5):
+#     x=[a*a]
+#     print(x)
+
+# # a=list(range(9))
+# # print(a)
+#
+# print[a*a for a in range(1,6)]
+
+# a=['good','am','bady','come','on']
+# for i in range(len(a)):
+#     print(i,a[i])
+
+# for n in range(2,24):
+#     for x in range(2,n):
+#         if n%x==0:
+#             print(n,'equals',x,'*',n//x)
+#             break
+#     else:
+#         print(n,'is a prime number')
+
+# for i in range(10):
+#     if i<5:
+#         print(i)
+#         break
+
+# for i in range(10):
+#     for j in range(10):
+#         if i+j<5:
+#             print(i,j)
+#             break
+
+def work():
+    for i in range(10):
+        for j in range(10):
+            if i+j>5:
+                return i,j
+print(work())
