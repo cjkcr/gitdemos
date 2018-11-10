@@ -89,11 +89,11 @@
 #         print(i)
 #         break
 
-# for i in range(10):
-#     for j in range(10):
-#         if i+j<5:
-#             print(i,j)
-#             break
+for i in range(10):
+    for j in range(10):
+        if i+j<5:
+            print(i,j)
+            break
 
 def work():
     for i in range(10):
