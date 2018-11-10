@@ -42,7 +42,7 @@
 #         element.click()
 
 import os
-import time   #时间
+# import time   #时间
 from selenium import webdriver  #用find css寻找
 chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
 os.environ['webdriver.chrome.driver']=chromedriver
@@ -69,7 +69,7 @@ driver.get('http://www.baidu.com')
 driver.back()
 #browser forward
 driver.forward()
-#get page source   获得原代码
+# get page source   获得原代码
 pagesource=driver.page_source
 print(pagesource)
 
