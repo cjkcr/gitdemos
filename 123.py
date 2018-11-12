@@ -95,9 +95,17 @@ for i in range(10):
             print(i,j)
             break
 
+
 def work():
+    '''123'''
     for i in range(10):
         for j in range(10):
             if i+j>5:
                 return i,j
 print(work())
+
+lists=[]
+
+print(dir(abs))
+
+
