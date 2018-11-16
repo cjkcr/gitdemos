@@ -50,7 +50,7 @@
 # abc.aaaa()
 
 # a,b=0,1
-# while b<10:
+# while b<100:
 #     print(b)
 #     a,b=b,a+b
 #
@@ -89,23 +89,30 @@
 #         print(i)
 #         break
 
-for i in range(10):
-    for j in range(10):
-        if i+j<5:
-            print(i,j)
-            break
+# for i in range(10):
+#     for j in range(10):
+#         if i+j<5:
+#             print(i,j)
+#             break
+#
+#
+# def work():
+#     '''123'''
+#     for i in range(10):
+#         for j in range(10):
+#             if i+j>5:
+#                 return i,j
+# print(work())
+#
+# lists=[]
+#
+# print(dir(abs))
+
+with open('book.txt',mode='r') as file:
+    for line in file:
+        print(line)
 
 
-def work():
-    '''123'''
-    for i in range(10):
-        for j in range(10):
-            if i+j>5:
-                return i,j
-print(work())
 
-lists=[]
-
-print(dir(abs))
 
 
