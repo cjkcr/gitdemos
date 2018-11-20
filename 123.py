@@ -108,10 +108,31 @@
 #
 # print(dir(abs))
 
-with open('book.txt',mode='r') as file:
-    for line in file:
-        print(line)
+# with open('book.txt',mode='r') as file:
+#     for line in file:
+#         print(line)
 
+
+
+
+class frest:
+
+    def __init__(self,n):
+        self.x=0
+        self.y=1
+        self.n=n
+    def __iter__(self):
+        return self
+    def __next__(self):
+        self.x, self.y = self.y, self.x + self.y
+        if self.x >self.n:
+            raise StopIteration   #没有元素的异常
+        return self.x
+import random  #随机
+abc=random.randint(200,1050)
+ss=frest(abc)
+for eeee in ss:
+    print(eeee,end=" ")
 
 
 
